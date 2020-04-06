@@ -1,3 +1,16 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+.toolbar {
+  --background: #F39625;
+
+  ion-title, ion-back-button { color: white; }
+}
+
+ion-content {
+  --background: #D9D9D9;
+
+  ion-card { border-radius: 15px;}
+  ion-fab-button { --background: #F39625; }
+}

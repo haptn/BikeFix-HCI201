@@ -1,0 +1,20 @@
+.background {
+    --background: url('/assets/img/bg-screen.png') no-repeat center/cover fixed;
+
+    /* Ko nên dùng path chứa ../../../.. vì ko hiển thị đc trên real devices. */
+    // --background: none;
+    // background-image: url('../../../../assets/img/bg-screen.png');
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+
+    ion-card {
+        height: 12em;
+        border: 1px solid #00ACCF;
+        margin-top: 15em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ion-button { width: 20em; height: 4em; }
+    }
+}
